@@ -3,3 +3,35 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
+/*======================================================================================== =============================header-and-nav-bar-stylesheet-start====================================================================================================================*/
+
+.search-icon{
+    position: absolute;
+    top: 21px;
+    left: 51%;
+    font-size: 17px;
+    color: #b3adad;
+}
+#navbar-item{
+    position: absolute;
+    top: -7px;
+    left: 60%;
+    font-size: 18px;
+}
+#navbar-item ul li{
+    padding: 7px 21px;
+    transition: 0.5s ease-in;
+}
+#navbar-item ul li a{
+    color: black;
+    font-weight: 500;
+    transition: color 0.8s ease-in;
+}
+#navbar-item ul li a:hover{
+    color: #fff;
+}
+#navbar-item ul li:hover{
+    background-color: lightblue;
+}
+/*======================================================================================== =============================header-and-nav-bar-stylesheet-End====================================================================================================================*/
